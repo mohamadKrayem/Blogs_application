@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+  color: rgb(32, 32, 32);
+}
+
+.profile_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: bisque;
+  padding: 10px;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  text-decoration: none;
+}
+
+.profile_pic{
+  border-radius: 50%;
+  width: 60px;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.user_name{
+  font-size: 20px;
+  color: rgb(32, 32, 32);
+  font-weight: 500;
+}
+.user_name:hover{
+  color: rgba(32, 32, 32, 0.5);
+}
+
+.addBlog{
+  text-decoration: none;
+  margin-right: 6px;
+  color: rgb(32, 32, 32);
+  font-weight: 500;
+}
+.addBlog:hover{
+  color: rgba(32, 32, 32, 0.5);
+}
+
+.part2{
+  gap: 15px;
+}
+
+.header{
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#title{
+  height: 30px;
+  width: 250px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+#title:focus{
+  border: 0.5px solid rgb(32, 32, 32);
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#body{
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  resize: none;
+  outline: none;
+  transition: 0.5s;
+}
+#body:focus{
+  border: 0.5px solid rgb(32, 32, 32);
+  font-size: 17px;
+  height: 380px;
+}
+
+#submit{
+  background: rgb(255, 239, 187);
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500px;
+  border-radius: 10px;
+}
+#submit:hover{
+  background: rgba(255, 239, 187, 0.5);
+}
